@@ -10,16 +10,17 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Lumin Audio</title>
 	</head>
-	<body class="bg-stone-50 font-sans bg-[url('lumin1_bg.jpg')] bg-cover">
+
+	<body style="background-image: url(https://luminaudio.org/lumin1_bg.jpg)"
+		  class="bg-stone-200 font-sans bg-cover">
 
 
+	<div class="relative z-10 text-white font-mono text-center bg-black/70 border-black border-8 rounded-lg max-w-4xl mx-auto mt-12 p-8">
+		<a href="../"><img src="../lumin-logo.svg" alt="LuminAudio" class="w-96 m-auto"></a>
 
-	<div class="relative z-10 text-white font-mono text-center bg-slate-500/80 border-black border-8 rounded-lg max-w-4xl mx-auto mt-12 p-8">
-		<img src="/lumin-logo.svg" class="w-96 m-auto">
-
-		<nav class="pt-3">
-			<a href="/news">News</a> -
-			<a href="/projects">Projects</a> -
+		<nav class="pt-12 font-sans text-xl ">
+			<a class="pr-3" href="/news">Articles</a>  -
+			<a class="pr-3" href="/projects">Projects</a> -
 			<a href="/contact">Contact</a>
 		</nav>
 
